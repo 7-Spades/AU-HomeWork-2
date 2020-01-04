@@ -1,0 +1,32 @@
+html body{
+    background-image: url(../images/greek-vase.png);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footer{
+    flex-shrink: 0;
+    height: 50px; 
+    border-top: 8px solid; 
+    background-color: #4aaaa5
+
+}
+
+header{
+    padding: 50px;
+    margin-bottom: 25px;
+}
+
+#panel{
+    flex: 1 0 auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 75px;
+}
+
+#fr_pin{
+    height: 250px;
+    width: 250px;
+    padding-bottom: 10px;
+}
